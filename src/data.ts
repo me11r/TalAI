@@ -1,3 +1,4 @@
+import {PUBLIC_DEMO,DEMO_KEY} from './runtime';
 import {BOUNDARY,ringPoint,DEMO_TREES} from './territory';
 import {demoLocations} from './siteGeometry';
 export const DEMO = 'Демонстрационные данные — не результаты обследования';
@@ -77,7 +78,7 @@ export function seed():Project {
 }
 export const LEGACY_KEY='greenwatch.project.v1';
 export const OLD_KEY='greenwatch.project.astana.v2';
-export const KEY='talai.project.v3';
+export const KEY=PUBLIC_DEMO?DEMO_KEY:'talai.project.v3';
 export function migrate(old:Project,local=false):Project {
  const p=seed(),base=local?legacySeed():syntheticSeed();
  // Only exact, unchanged generated records are excluded. Edited/user records retain coordinates.
@@ -87,7 +88,7 @@ export function migrate(old:Project,local=false):Project {
  p.tasks=keep(old.tasks,base.tasks);for(const t of p.tasks){if(!p.trees.some(x=>x.id===t.target)&&!p.plans.some(x=>x.id===t.target)){const tree=old.trees.find(x=>x.id===t.target);const plan=old.plans.find(x=>x.id===t.target);if(tree)p.trees.push(tree);else if(plan)p.plans.push(plan);}}
  p.surveys.push(...old.surveys.filter(s=>p.observations.some(o=>o.surveyId===s.id)||JSON.stringify(s)!==JSON.stringify(base.surveys.find(x=>x.id===s.id))));if(old.scenario.trees.length)p.scenario={...old.scenario,trees:[...p.scenario.trees,...old.scenario.trees]};p.history=old.history;return p;
 }
-export function load():{project:Project;error:string}{try{const raw=localStorage.getItem(KEY);if(raw)return {project:validateProject(JSON.parse(raw)),error:''};const geo=localStorage.getItem(OLD_KEY),old=geo||localStorage.getItem(LEGACY_KEY);return {project:old?migrate(validateProject(JSON.parse(old)),!geo):seed(),error:old?'Старый набор сохранён в архиве. Пользовательские изменения перенесены.':''};}catch{return {project:seed(),error:'Не удалось прочитать сохранение. Исходные ключи оставлены без изменений.'};}}
+export function load():{project:Project;error:string}{try{const raw=localStorage.getItem(KEY);if(raw)return {project:validateProject(JSON.parse(raw)),error:''};if(PUBLIC_DEMO)return {project:seed(),error:''};const geo=localStorage.getItem(OLD_KEY),old=geo||localStorage.getItem(LEGACY_KEY);return {project:old?migrate(validateProject(JSON.parse(old)),!geo):seed(),error:old?'Старый набор сохранён в архиве. Пользовательские изменения перенесены.':''};}catch{return {project:seed(),error:'Не удалось прочитать сохранение. Исходные ключи оставлены без изменений.'};}}
 export function save(p:Project){localStorage.setItem(KEY,JSON.stringify(p));}
 export function uid(prefix:string){return `${prefix}-${crypto.randomUUID().slice(0,8)}`;}
 export function validCoord(p:Coord){return Number.isFinite(p.latitude)&&Number.isFinite(p.longitude)&&Math.abs(p.latitude)<=90&&Math.abs(p.longitude)<=180;}

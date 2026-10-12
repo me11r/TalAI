@@ -10,3 +10,6 @@ tests/*.pdf
 .env.*.local
 
 storage/
+.vercel/
+.env
+.env.production

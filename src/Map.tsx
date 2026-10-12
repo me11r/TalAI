@@ -1,3 +1,5 @@
+import {PUBLIC_DEMO} from './runtime';
+import {demoTreeModel} from './treeModel';
 import {mapAllowed,chooseMap} from './Privacy';
 import {GltfPlugin} from '@2gis/mapgl-gltf';
 import {BOUNDARY,SITE_BOUNDS} from './territory';
@@ -63,11 +65,16 @@ function EnabledMap(props:Props){
  useEffect(()=>{const gl=plugin.current;if(!gl||!ready)return;let disposed=false;setModelError('');
  const models=layers.future?p.scenario.trees.map(t=>({modelId:t.id,modelUrl:`/api/tree-model?height=${t.height}&crown=${t.crown}`,coordinates:[t.longitude,t.latitude] as [number,number],interactive:true})):[];
  const materialModels=(p.surveys.find(s=>s.id===props.materialSurvey)?.materials||[]).filter(f=>f.kind==='model'&&f.coordinates).map(f=>({modelId:f.id,modelUrl:f.url,coordinates:f.coordinates!,scale:f.scale||1,interactive:false}));
- const all=[...models,...materialModels],desired=new Map(all.map(t=>[t.modelId,JSON.stringify(t)]));
- const removed=[...modelSpecs.current.keys()].filter(id=>modelSpecs.current.get(id)!==desired.get(id));
- if(removed.length)gl.removeModels(removed);
- const changed=all.filter(t=>modelSpecs.current.get(t.modelId)!==desired.get(t.modelId));modelSpecs.current=desired;
- if(changed.length)gl.addModels(changed).catch(e=>{if(!disposed){for(const t of changed)modelSpecs.current.delete(t.modelId);setModelError('Не удалось загрузить 3D-модели: '+String(e));}});
+ const all=[...models,...materialModels];
+ void (async()=>{
+  const resolved=await Promise.all(all.map(async t=>{const tree=p.scenario.trees.find(v=>v.id===t.modelId);return PUBLIC_DEMO&&tree?{...t,modelUrl:await demoTreeModel(tree.height,tree.crown)}:t;}));
+  if(disposed)return;
+  const desired=new Map(resolved.map(t=>[t.modelId,JSON.stringify(t)]));
+  const removed=[...modelSpecs.current.keys()].filter(id=>modelSpecs.current.get(id)!==desired.get(id));
+  if(removed.length)gl.removeModels(removed);
+  const changed=resolved.filter(t=>modelSpecs.current.get(t.modelId)!==desired.get(t.modelId));modelSpecs.current=desired;
+  if(changed.length)try{await gl.addModels(changed);}catch(e){for(const t of changed)if(modelSpecs.current.get(t.modelId)===desired.get(t.modelId))modelSpecs.current.delete(t.modelId);throw e;}
+ })().catch(e=>{if(!disposed)setModelError('Не удалось загрузить 3D-модели: '+String(e));});
  return()=>{disposed=true;};
  },[ready,JSON.stringify(p.scenario.trees),layers.future,props.materialSurvey,JSON.stringify(p.surveys)]);
  useEffect(()=>{if(!ready||!map.current||!props.camera)return;const m=map.current,c=props.camera;if(Math.abs(m.getCenter()[0]-c.center[0])>1e-8||Math.abs(m.getCenter()[1]-c.center[1])>1e-8)m.setCenter(c.center);if(Math.abs(m.getZoom()-c.zoom)>1e-6)m.setZoom(c.zoom);if(m.getPitch()!==c.pitch)m.setPitch(c.pitch);if(m.getRotation()!==c.rotation)m.setRotation(c.rotation);},[props.camera,ready]);

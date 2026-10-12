@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-12T14:17:05.749Z",
+  "checks": [
+    "Direct workspace, no login, refusal persists, zero third-party requests or cookies",
+    "Keyboard planting creation and browser persistence, legacy/operator data isolated",
+    "Survey creation and future date without invented materials; uploads disabled",
+    "All documents open without login",
+    "Live 2GIS ready, own locally resized GLB, no model errors",
+    "Map withdrawal stops subsequent third-party requests",
+    "No server API calls, zero JS errors, zero automated accessibility violations"
+  ],
+  "accessibility": [
+    {
+      "name": "demo first visit",
+      "violations": []
+    },
+    {
+      "name": "demo history",
+      "violations": []
+    },
+    {
+      "name": "/privacy",
+      "violations": []
+    },
+    {
+      "name": "/terms",
+      "violations": []
+    },
+    {
+      "name": "/cookies",
+      "violations": []
+    },
+    {
+      "name": "/contacts",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,3 +1,5 @@
+import {PUBLIC_DEMO} from './runtime';
+import DemoLegal from './DemoLegal';
 import {owner} from './owner';
 export const DOC_VERSION='2026-10-12-review.1';
 function OwnerDetails(){return <dl>{([['Наименование','name'],['Статус ИП/ТОО','status'],['БИН/ИИН','registrationId'],['Юридический адрес','address'],['Email','email']] as const).map(([label,key])=><div key={key}><dt>{label}</dt><dd>{owner[key]||'Не предоставлено'}</dd></div>)}</dl>}
@@ -27,5 +29,5 @@ const sections:Record<string,{title:string;content:React.ReactNode}>={
  </>},
  '/contacts':{title:'О проекте и документы',content:<><p>TalAI — Учёт деревьев, планирование посадок и история обследований.</p><p><a href="tel:+77753305172">{owner.phone}</a> · <a href={owner.whatsapp} rel="noreferrer">Написать в WhatsApp</a></p><OwnerDetails/><p>WhatsApp — канал связи, не юридические реквизиты. Название владельца, статус ИП/ТОО, БИН/ИИН, юридический адрес и email ожидаются. Публичный запуск не согласован.</p><p>По этому контакту можно запросить доступ к данным, исправление, удаление или отзыв согласия. Автоматическая отправка сообщений не выполняется.</p><p>Документы ниже доступны для проверки владельцем. Перед запуском требуется подтвердить размещение базы в Казахстане, получателей и страны передачи, сроки хранения, права на материалы и договорные условия 2ГИС. Соответствие законодательству, GDPR или WCAG не заявляется.</p></>}
 };
-export function LegalPage(){const doc=sections[location.pathname];if(!doc)return null;return <main id="main-content" tabIndex={-1} className="legal-page"><a href="/">← TalAI</a><h1>{doc.title}</h1><p className="notice"><strong>Проект документа для проверки. Не готов к публичному запуску.</strong><br/>12 октября 2026 · версия {DOC_VERSION}. Реквизиты владельца и условия размещения не подтверждены.</p>{doc.content}<DocumentLinks/></main>}
+export function LegalPage(){const doc=sections[location.pathname];if(!doc)return null;return <main id="main-content" tabIndex={-1} className="legal-page"><a href="/">← TalAI</a><h1>{doc.title}</h1><p className="notice"><strong>Проект документа для проверки. Реквизиты владельца требуют уточнения.</strong><br/>12 октября 2026 · версия {DOC_VERSION}. Реквизиты владельца и условия размещения не подтверждены.</p>{PUBLIC_DEMO?<DemoLegal path={location.pathname}/>:doc.content}<DocumentLinks/></main>}
 export const isLegal=()=>Object.hasOwn(sections,location.pathname);

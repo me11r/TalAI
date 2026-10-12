@@ -1,5 +1,7 @@
+import {PUBLIC_DEMO,DEMO_UPLOAD_NOTICE} from './runtime';
 import type {Material} from './data';
 export async function uploadOriginal(file:File):Promise<Omit<Material,'kind'>>{
+ if(PUBLIC_DEMO)throw Error(DEMO_UPLOAD_NOTICE);
  const send=async(blob:Blob,name:string)=>{const r=await fetch('/api/upload?name='+encodeURIComponent(name),{method:'POST',body:blob});const data=await r.json();if(!r.ok)throw Error(data.error);return data;};
  const original=await send(file,file.name);
  if(['image/jpeg','image/png','image/webp'].includes(file.type)){

@@ -1,9 +1,11 @@
+import {PUBLIC_DEMO} from './runtime';
 import {load,save,KEY,OLD_KEY,LEGACY_KEY,migrate,validateProject,type Project} from './data';
 let queue=Promise.resolve();
 const photoFiles=new Map<string,string>();
-export function persist(p:Project){const snapshot=structuredClone(p);queue=queue.catch(()=>{}).then(async()=>{await externalize(snapshot);save(snapshot);const r=await fetch('/api/project',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(snapshot)});if(!r.ok)throw Error((await r.json()).error);});return queue;}
+export function persist(p:Project){const snapshot=structuredClone(p);if(PUBLIC_DEMO){try{save(validateProject(snapshot));return Promise.resolve();}catch(e){return Promise.reject(e);}}queue=queue.catch(()=>{}).then(async()=>{await externalize(snapshot);save(snapshot);const r=await fetch('/api/project',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(snapshot)});if(!r.ok)throw Error((await r.json()).error);});return queue;}
 async function externalize(p:Project){let changed=false;for(const item of [...p.observations,...p.tasks])if(item.photo?.startsWith('data:')){const original=item.photo;let url=photoFiles.get(original);if(!url){const blob=await (await fetch(original)).blob();const upload=await fetch('/api/upload?name='+encodeURIComponent(item.id)+'.'+blob.type.split('/')[1],{method:'POST',body:blob});if(!upload.ok)throw Error('Не удалось перенести фотографию');url=(await upload.json()).url as string;photoFiles.set(original,url);}item.photo=url;changed=true;}return changed;}
 export async function bootstrap(){
+ if(PUBLIC_DEMO)return;
  const r=await fetch('/api/project');if(!r.ok)throw Error('Серверное хранилище недоступно');const remote:Project|null=await r.json();let p=remote||load().project;let changed=!remote;
  for(const id of [OLD_KEY,LEGACY_KEY]){const raw=localStorage.getItem(id);if(!raw)continue;
  const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw)))).map(v=>v.toString(16).padStart(2,'0')).join('');const receipt=id+':'+digest;

@@ -1,0 +1,11 @@
+# Never send operator data or local credentials to the deployment service.
+storage/
+.env
+.env.local
+.env.*.local
+.env.production
+.git/
+node_modules/
+dist/
+playwright-report/
+test-results/

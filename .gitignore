@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+tests/*.png
+tests/*.pdf
+
+.env.local
+.env.*.local
+
+storage/

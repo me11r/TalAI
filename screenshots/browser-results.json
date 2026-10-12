@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "storage": "/tmp/talai-browser-YCIIwi",
+  "checks": [
+    "real 2GIS",
+    "GLB selection by map click",
+    "layer visibility",
+    "rotation coordinates",
+    "move, parameters, reload and deletion",
+    "upload and preview",
+    "date isolation",
+    "comparison",
+    "no runtime errors"
+  ]
+}

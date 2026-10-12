@@ -1,0 +1,2826 @@
+{
+  "version": 1,
+  "name": "Астана · учебный участок",
+  "demo": "Демонстрационные данные — не результаты обследования",
+  "plans": [
+    {
+      "id": "P-001",
+      "longitude": 71.3004863754257,
+      "latitude": 51.100377290693494,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-002",
+      "longitude": 71.30054359606403,
+      "latitude": 51.100377290693494,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-003",
+      "longitude": 71.30081539409605,
+      "latitude": 51.1003054257995,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-004",
+      "longitude": 71.30110149728765,
+      "latitude": 51.100395256917,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-005",
+      "longitude": 71.3004291547874,
+      "latitude": 51.100574919151995,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-006",
+      "longitude": 71.30075817345772,
+      "latitude": 51.100637800934244,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-007",
+      "longitude": 71.30104427664932,
+      "latitude": 51.100574919151995,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-008",
+      "longitude": 71.30047207026612,
+      "latitude": 51.1007725476105,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-009",
+      "longitude": 71.30094414053227,
+      "latitude": 51.10079949694574,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-010",
+      "longitude": 71.30121593856428,
+      "latitude": 51.100718648939996,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-011",
+      "longitude": 71.3005722063832,
+      "latitude": 51.10119475386274,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-012",
+      "longitude": 71.30078678377689,
+      "latitude": 51.10134746676249,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-013",
+      "longitude": 71.30101566633016,
+      "latitude": 51.10115882141574,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-014",
+      "longitude": 71.30125885404303,
+      "latitude": 51.10141034854474,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-015",
+      "longitude": 71.30151634691546,
+      "latitude": 51.10123966942149,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-016",
+      "longitude": 71.30165939851126,
+      "latitude": 51.101401365432984,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-017",
+      "longitude": 71.30045776510656,
+      "latitude": 51.10135644987424,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-018",
+      "longitude": 71.30090122505352,
+      "latitude": 51.101042040962994,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-019",
+      "longitude": 71.30244618228815,
+      "latitude": 51.10119475386274,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-020",
+      "longitude": 71.30270367516059,
+      "latitude": 51.10112288896874,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-021",
+      "longitude": 71.30298977835218,
+      "latitude": 51.10119475386274,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-022",
+      "longitude": 71.30327588154378,
+      "latitude": 51.10128458498024,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-023",
+      "longitude": 71.30250340292646,
+      "latitude": 51.10138339920949,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-024",
+      "longitude": 71.30281811643722,
+      "latitude": 51.10139238232124,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-025",
+      "longitude": 71.30313282994798,
+      "latitude": 51.10138339920949,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-026",
+      "longitude": 71.30316144026713,
+      "latitude": 51.101042040962994,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-027",
+      "longitude": 71.30045776510656,
+      "latitude": 51.10109593963349,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-028",
+      "longitude": 71.30075817345772,
+      "latitude": 51.101078871721164,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-029",
+      "longitude": 71.3010585818089,
+      "latitude": 51.10106180380884,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-030",
+      "longitude": 71.30135899016008,
+      "latitude": 51.101044735896515,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-031",
+      "longitude": 71.30165939851126,
+      "latitude": 51.10102766798419,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-032",
+      "longitude": 71.30195980686243,
+      "latitude": 51.10101060007187,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-033",
+      "longitude": 71.30226021521361,
+      "latitude": 51.10099353215954,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-034",
+      "longitude": 71.30256062356479,
+      "latitude": 51.10097646424722,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-035",
+      "longitude": 71.30286103191597,
+      "latitude": 51.10095939633489,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-036",
+      "longitude": 71.30316144026713,
+      "latitude": 51.10094232842257,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-037",
+      "longitude": 71.30050068058529,
+      "latitude": 51.10088932806324,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-038",
+      "longitude": 71.30080108893647,
+      "latitude": 51.10088124326267,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-039",
+      "longitude": 71.30110149728765,
+      "latitude": 51.10087315846209,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-040",
+      "longitude": 71.30140190563883,
+      "latitude": 51.10086507366152,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-041",
+      "longitude": 71.30170231398999,
+      "latitude": 51.10085698886094,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-042",
+      "longitude": 71.30200272234117,
+      "latitude": 51.10084890406037,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-043",
+      "longitude": 71.30230313069235,
+      "latitude": 51.100840819259794,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-044",
+      "longitude": 71.30260353904353,
+      "latitude": 51.10083273445922,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-045",
+      "longitude": 71.3029039473947,
+      "latitude": 51.10082464965864,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-046",
+      "longitude": 71.30320435574588,
+      "latitude": 51.10081656485807,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-047",
+      "longitude": 71.30155926239419,
+      "latitude": 51.10024254401725,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-048",
+      "longitude": 71.30154495723463,
+      "latitude": 51.100404240028745,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-049",
+      "longitude": 71.30154495723463,
+      "latitude": 51.100574919151995,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-050",
+      "longitude": 71.30198841718159,
+      "latitude": 51.10024254401725,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-051",
+      "longitude": 71.30200272234117,
+      "latitude": 51.10042220625225,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-052",
+      "longitude": 71.30200272234117,
+      "latitude": 51.100610851598994,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-053",
+      "longitude": 71.3024032668094,
+      "latitude": 51.100287459576,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-054",
+      "longitude": 71.30271798032017,
+      "latitude": 51.10026051024075,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-055",
+      "longitude": 71.30308991446924,
+      "latitude": 51.10035034135825,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-056",
+      "longitude": 71.30250340292646,
+      "latitude": 51.100538986705,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-057",
+      "longitude": 71.30287533707555,
+      "latitude": 51.10056593604025,
+      "species": "Берёза",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-058",
+      "longitude": 71.30320435574588,
+      "latitude": 51.10055695292849,
+      "species": "Сосна",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-059",
+      "longitude": 71.30227452037319,
+      "latitude": 51.100682716493,
+      "species": "Вяз",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "P-060",
+      "longitude": 71.3031900505863,
+      "latitude": 51.10072763205174,
+      "species": "Тополь",
+      "uncertainty": 0.3
+    }
+  ],
+  "trees": [
+    {
+      "id": "T-001",
+      "longitude": 71.300510694197,
+      "latitude": 51.1003808839382,
+      "species": "Берёза",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-002",
+      "longitude": 71.30051927729275,
+      "latitude": 51.1003808839382,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-003",
+      "longitude": 71.30082254667583,
+      "latitude": 51.1003090190442,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-004",
+      "longitude": 71.30110864986743,
+      "latitude": 51.100398850161696,
+      "species": "Тополь",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-005",
+      "longitude": 71.30043630736718,
+      "latitude": 51.100578512396694,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-006",
+      "longitude": 71.30076532603752,
+      "latitude": 51.10064139417894,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Без замечаний по осмотру"
+    },
+    {
+      "id": "T-007",
+      "longitude": 71.30105142922912,
+      "latitude": 51.100578512396694,
+      "species": "Вяз",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-008",
+      "longitude": 71.30047922284592,
+      "latitude": 51.100776140855196,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-009",
+      "longitude": 71.30095129311205,
+      "latitude": 51.100803090190446,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-010",
+      "longitude": 71.30125170146323,
+      "latitude": 51.100722242184695,
+      "species": "Сосна",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-011",
+      "longitude": 71.30057935896298,
+      "latitude": 51.10119834710744,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-012",
+      "longitude": 71.30079393635668,
+      "latitude": 51.10135106000719,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-013",
+      "longitude": 71.30102281890996,
+      "latitude": 51.10116241466044,
+      "species": "Берёза",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-014",
+      "longitude": 71.30135899016008,
+      "latitude": 51.10141394178944,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-015",
+      "longitude": 71.30152349949525,
+      "latitude": 51.10124326266619,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-016",
+      "longitude": 71.30166655109105,
+      "latitude": 51.10140495867769,
+      "species": "Тополь",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-017",
+      "longitude": 71.30046491768634,
+      "latitude": 51.10136004311894,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-018",
+      "longitude": 71.30090837763332,
+      "latitude": 51.10104563420769,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-019",
+      "longitude": 71.3024819451871,
+      "latitude": 51.10119834710744,
+      "species": "Вяз",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-020",
+      "longitude": 71.30271082774037,
+      "latitude": 51.10112648221344,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": null,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-021",
+      "longitude": 71.30299693093197,
+      "latitude": 51.10119834710744,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-022",
+      "longitude": 71.30328303412357,
+      "latitude": 51.10128817822494,
+      "species": "Сосна",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-023",
+      "longitude": 71.30251055550626,
+      "latitude": 51.10138699245419,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-024",
+      "longitude": 71.302825269017,
+      "latitude": 51.101395975565936,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-025",
+      "longitude": 71.30313998252777,
+      "latitude": 51.10138699245419,
+      "species": "Берёза",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-026",
+      "longitude": 71.30316859284693,
+      "latitude": 51.10104563420769,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-027",
+      "longitude": 71.30055790122361,
+      "latitude": 51.10109953287819,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-028",
+      "longitude": 71.30079393635668,
+      "latitude": 51.10108246496586,
+      "species": "Тополь",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-029",
+      "longitude": 71.3010657343887,
+      "latitude": 51.10106539705354,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-030",
+      "longitude": 71.30136614273987,
+      "latitude": 51.101048329141214,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-031",
+      "longitude": 71.30166655109105,
+      "latitude": 51.10103126122889,
+      "species": "Вяз",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-032",
+      "longitude": 71.30196695944223,
+      "latitude": 51.101014193316566,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-033",
+      "longitude": 71.3022673677934,
+      "latitude": 51.10099712540424,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-034",
+      "longitude": 71.30256777614457,
+      "latitude": 51.10098005749192,
+      "species": "Сосна",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-035",
+      "longitude": 71.30286818449575,
+      "latitude": 51.10096298957959,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-036",
+      "longitude": 71.30316859284693,
+      "latitude": 51.10094592166727,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-037",
+      "longitude": 71.30053644348425,
+      "latitude": 51.100892921307945,
+      "species": "Берёза",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-038",
+      "longitude": 71.30080824151625,
+      "latitude": 51.10088483650737,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-039",
+      "longitude": 71.30110864986743,
+      "latitude": 51.10087675170679,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-040",
+      "longitude": 71.30150204175588,
+      "latitude": 51.100868666906216,
+      "species": "Тополь",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-041",
+      "longitude": 71.30170946656979,
+      "latitude": 51.100860582105646,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-042",
+      "longitude": 71.30200987492097,
+      "latitude": 51.10085249730507,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-043",
+      "longitude": 71.30231028327213,
+      "latitude": 51.10084441250449,
+      "species": "Вяз",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-044",
+      "longitude": 71.30261069162331,
+      "latitude": 51.10083632770392,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-045",
+      "longitude": 71.3029110999745,
+      "latitude": 51.10082824290334,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-046",
+      "longitude": 71.30324011864482,
+      "latitude": 51.10082015810277,
+      "species": "Сосна",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-047",
+      "longitude": 71.30156641497399,
+      "latitude": 51.10024613726195,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-048",
+      "longitude": 71.30155210981441,
+      "latitude": 51.10040783327345,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-049",
+      "longitude": 71.30155210981441,
+      "latitude": 51.100578512396694,
+      "species": "Берёза",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-050",
+      "longitude": 71.30199556976139,
+      "latitude": 51.10024613726195,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-051",
+      "longitude": 71.30200987492097,
+      "latitude": 51.100425799496946,
+      "species": "Вяз",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-052",
+      "longitude": 71.30200987492097,
+      "latitude": 51.10061444484369,
+      "species": "Тополь",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-053",
+      "longitude": 71.30250340292646,
+      "latitude": 51.1002910528207,
+      "species": "Берёза",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-054",
+      "longitude": 71.30272513289995,
+      "latitude": 51.10026410348545,
+      "species": "Сосна",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-055",
+      "longitude": 71.30312567736819,
+      "latitude": 51.10035393460295,
+      "species": "Вяз",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Требуется осмотр"
+    },
+    {
+      "id": "T-056",
+      "longitude": 71.30251055550626,
+      "latitude": 51.100542579949696,
+      "species": "Тополь",
+      "coordinateType": "Ствол",
+      "source": "Синтетические координаты",
+      "uncertainty": 0.6,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-57",
+      "longitude": 71.30022888255327,
+      "latitude": 51.10139238232124,
+      "species": "Не определена",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 1.2,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-58",
+      "longitude": 71.3012016334047,
+      "latitude": 51.10143729787999,
+      "species": "Не определена",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 1.2,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-59",
+      "longitude": 71.30217438425613,
+      "latitude": 51.10139238232124,
+      "species": "Не определена",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 1.2,
+      "condition": "Не оценено"
+    },
+    {
+      "id": "T-60",
+      "longitude": 71.30314713510757,
+      "latitude": 51.10143729787999,
+      "species": "Не определена",
+      "coordinateType": "Оценка центра кроны",
+      "source": "Синтетические координаты",
+      "uncertainty": 1.2,
+      "condition": "Не оценено"
+    }
+  ],
+  "surveys": [
+    {
+      "id": "S1",
+      "date": "2026-05-18",
+      "source": "Синтетический набор · учебная генерация"
+    },
+    {
+      "id": "S2",
+      "date": "2026-06-22",
+      "source": "Синтетический набор · учебная генерация"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O-S1-T-001",
+      "treeId": "T-001",
+      "surveyId": "S1",
+      "longitude": 71.30051355522892,
+      "latitude": 51.1003808839382,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-002",
+      "treeId": "T-002",
+      "surveyId": "S1",
+      "longitude": 71.30052213832467,
+      "latitude": 51.1003808839382,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-003",
+      "treeId": "T-003",
+      "surveyId": "S1",
+      "longitude": 71.30082540770775,
+      "latitude": 51.1003090190442,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-004",
+      "treeId": "T-004",
+      "surveyId": "S1",
+      "longitude": 71.30111151089935,
+      "latitude": 51.100398850161696,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-005",
+      "treeId": "T-005",
+      "surveyId": "S1",
+      "longitude": 71.3004391683991,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-006",
+      "treeId": "T-006",
+      "surveyId": "S1",
+      "longitude": 71.30076818706944,
+      "latitude": 51.10064139417894,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-007",
+      "treeId": "T-007",
+      "surveyId": "S1",
+      "longitude": 71.30105429026104,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-008",
+      "treeId": "T-008",
+      "surveyId": "S1",
+      "longitude": 71.30048208387784,
+      "latitude": 51.100776140855196,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-009",
+      "treeId": "T-009",
+      "surveyId": "S1",
+      "longitude": 71.30095415414397,
+      "latitude": 51.100803090190446,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-010",
+      "treeId": "T-010",
+      "surveyId": "S1",
+      "longitude": 71.30125456249515,
+      "latitude": 51.100722242184695,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-011",
+      "treeId": "T-011",
+      "surveyId": "S1",
+      "longitude": 71.3005822199949,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-012",
+      "treeId": "T-012",
+      "surveyId": "S1",
+      "longitude": 71.3007967973886,
+      "latitude": 51.10135106000719,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-013",
+      "treeId": "T-013",
+      "surveyId": "S1",
+      "longitude": 71.30102567994187,
+      "latitude": 51.10116241466044,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-014",
+      "treeId": "T-014",
+      "surveyId": "S1",
+      "longitude": 71.301361851192,
+      "latitude": 51.10141394178944,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-015",
+      "treeId": "T-015",
+      "surveyId": "S1",
+      "longitude": 71.30152636052716,
+      "latitude": 51.10124326266619,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-016",
+      "treeId": "T-016",
+      "surveyId": "S1",
+      "longitude": 71.30166941212296,
+      "latitude": 51.10140495867769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-017",
+      "treeId": "T-017",
+      "surveyId": "S1",
+      "longitude": 71.30046777871826,
+      "latitude": 51.10136004311894,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-018",
+      "treeId": "T-018",
+      "surveyId": "S1",
+      "longitude": 71.30091123866524,
+      "latitude": 51.10104563420769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-019",
+      "treeId": "T-019",
+      "surveyId": "S1",
+      "longitude": 71.30248480621901,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-020",
+      "treeId": "T-020",
+      "surveyId": "S1",
+      "longitude": 71.30271368877229,
+      "latitude": 51.10112648221344,
+      "uncertainty": null,
+      "visibility": "Частично перекрыто",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-021",
+      "treeId": "T-021",
+      "surveyId": "S1",
+      "longitude": 71.30299979196388,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-022",
+      "treeId": "T-022",
+      "surveyId": "S1",
+      "longitude": 71.30328589515548,
+      "latitude": 51.10128817822494,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-023",
+      "treeId": "T-023",
+      "surveyId": "S1",
+      "longitude": 71.30251341653818,
+      "latitude": 51.10138699245419,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-024",
+      "treeId": "T-024",
+      "surveyId": "S1",
+      "longitude": 71.30282813004892,
+      "latitude": 51.101395975565936,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-025",
+      "treeId": "T-025",
+      "surveyId": "S1",
+      "longitude": 71.30314284355968,
+      "latitude": 51.10138699245419,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-026",
+      "treeId": "T-026",
+      "surveyId": "S1",
+      "longitude": 71.30317145387885,
+      "latitude": 51.10104563420769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-027",
+      "treeId": "T-027",
+      "surveyId": "S1",
+      "longitude": 71.30056076225553,
+      "latitude": 51.10109953287819,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-028",
+      "treeId": "T-028",
+      "surveyId": "S1",
+      "longitude": 71.3007967973886,
+      "latitude": 51.10108246496586,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-029",
+      "treeId": "T-029",
+      "surveyId": "S1",
+      "longitude": 71.30106859542062,
+      "latitude": 51.10106539705354,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-030",
+      "treeId": "T-030",
+      "surveyId": "S1",
+      "longitude": 71.30136900377178,
+      "latitude": 51.101048329141214,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-031",
+      "treeId": "T-031",
+      "surveyId": "S1",
+      "longitude": 71.30166941212296,
+      "latitude": 51.10103126122889,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-032",
+      "treeId": "T-032",
+      "surveyId": "S1",
+      "longitude": 71.30196982047414,
+      "latitude": 51.101014193316566,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-033",
+      "treeId": "T-033",
+      "surveyId": "S1",
+      "longitude": 71.30227022882532,
+      "latitude": 51.10099712540424,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-034",
+      "treeId": "T-034",
+      "surveyId": "S1",
+      "longitude": 71.30257063717649,
+      "latitude": 51.10098005749192,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-035",
+      "treeId": "T-035",
+      "surveyId": "S1",
+      "longitude": 71.30287104552767,
+      "latitude": 51.10096298957959,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-036",
+      "treeId": "T-036",
+      "surveyId": "S1",
+      "longitude": 71.30317145387885,
+      "latitude": 51.10094592166727,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-037",
+      "treeId": "T-037",
+      "surveyId": "S1",
+      "longitude": 71.30053930451616,
+      "latitude": 51.100892921307945,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-038",
+      "treeId": "T-038",
+      "surveyId": "S1",
+      "longitude": 71.30081110254817,
+      "latitude": 51.10088483650737,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-039",
+      "treeId": "T-039",
+      "surveyId": "S1",
+      "longitude": 71.30111151089935,
+      "latitude": 51.10087675170679,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-040",
+      "treeId": "T-040",
+      "surveyId": "S1",
+      "longitude": 71.3015049027878,
+      "latitude": 51.100868666906216,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-041",
+      "treeId": "T-041",
+      "surveyId": "S1",
+      "longitude": 71.3017123276017,
+      "latitude": 51.100860582105646,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-042",
+      "treeId": "T-042",
+      "surveyId": "S1",
+      "longitude": 71.30201273595289,
+      "latitude": 51.10085249730507,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-043",
+      "treeId": "T-043",
+      "surveyId": "S1",
+      "longitude": 71.30231314430405,
+      "latitude": 51.10084441250449,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-044",
+      "treeId": "T-044",
+      "surveyId": "S1",
+      "longitude": 71.30261355265523,
+      "latitude": 51.10083632770392,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-045",
+      "treeId": "T-045",
+      "surveyId": "S1",
+      "longitude": 71.30291396100641,
+      "latitude": 51.10082824290334,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-046",
+      "treeId": "T-046",
+      "surveyId": "S1",
+      "longitude": 71.30324297967674,
+      "latitude": 51.10082015810277,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-047",
+      "treeId": "T-047",
+      "surveyId": "S1",
+      "longitude": 71.3015692760059,
+      "latitude": 51.10024613726195,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-048",
+      "treeId": "T-048",
+      "surveyId": "S1",
+      "longitude": 71.30155497084633,
+      "latitude": 51.10040783327345,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-049",
+      "treeId": "T-049",
+      "surveyId": "S1",
+      "longitude": 71.30155497084633,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-050",
+      "treeId": "T-050",
+      "surveyId": "S1",
+      "longitude": 71.3019984307933,
+      "latitude": 51.10024613726195,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-051",
+      "treeId": "T-051",
+      "surveyId": "S1",
+      "longitude": 71.30201273595289,
+      "latitude": 51.100425799496946,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-052",
+      "treeId": "T-052",
+      "surveyId": "S1",
+      "longitude": 71.30201273595289,
+      "latitude": 51.10061444484369,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-053",
+      "treeId": "T-053",
+      "surveyId": "S1",
+      "longitude": 71.30250626395838,
+      "latitude": 51.1002910528207,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-054",
+      "treeId": "T-054",
+      "surveyId": "S1",
+      "longitude": 71.30272799393187,
+      "latitude": 51.10026410348545,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-055",
+      "treeId": "T-055",
+      "surveyId": "S1",
+      "longitude": 71.3031285384001,
+      "latitude": 51.10035393460295,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-056",
+      "treeId": "T-056",
+      "surveyId": "S1",
+      "longitude": 71.30251341653818,
+      "latitude": 51.100542579949696,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-57",
+      "treeId": "T-57",
+      "surveyId": "S1",
+      "longitude": 71.30023174358519,
+      "latitude": 51.10139238232124,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-58",
+      "treeId": "T-58",
+      "surveyId": "S1",
+      "longitude": 71.30120449443662,
+      "latitude": 51.10143729787999,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-59",
+      "treeId": "T-59",
+      "surveyId": "S1",
+      "longitude": 71.30217724528805,
+      "latitude": 51.10139238232124,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S1-T-60",
+      "treeId": "T-60",
+      "surveyId": "S1",
+      "longitude": 71.30314999613948,
+      "latitude": 51.10143729787999,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-001",
+      "treeId": "T-001",
+      "surveyId": "S2",
+      "longitude": 71.300510694197,
+      "latitude": 51.1003808839382,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-002",
+      "treeId": "T-002",
+      "surveyId": "S2",
+      "longitude": 71.30051927729275,
+      "latitude": 51.1003808839382,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-003",
+      "treeId": "T-003",
+      "surveyId": "S2",
+      "longitude": 71.30082254667583,
+      "latitude": 51.1003090190442,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-004",
+      "treeId": "T-004",
+      "surveyId": "S2",
+      "longitude": 71.30110864986743,
+      "latitude": 51.100398850161696,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-005",
+      "treeId": "T-005",
+      "surveyId": "S2",
+      "longitude": 71.30043630736718,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-006",
+      "treeId": "T-006",
+      "surveyId": "S2",
+      "longitude": 71.30076532603752,
+      "latitude": 51.10064139417894,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-007",
+      "treeId": "T-007",
+      "surveyId": "S2",
+      "longitude": 71.30105142922912,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-008",
+      "treeId": "T-008",
+      "surveyId": "S2",
+      "longitude": 71.30047922284592,
+      "latitude": 51.100776140855196,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-009",
+      "treeId": "T-009",
+      "surveyId": "S2",
+      "longitude": 71.30095129311205,
+      "latitude": 51.100803090190446,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-010",
+      "treeId": "T-010",
+      "surveyId": "S2",
+      "longitude": 71.30125170146323,
+      "latitude": 51.100722242184695,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-011",
+      "treeId": "T-011",
+      "surveyId": "S2",
+      "longitude": 71.30057935896298,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-012",
+      "treeId": "T-012",
+      "surveyId": "S2",
+      "longitude": 71.30079393635668,
+      "latitude": 51.10135106000719,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-013",
+      "treeId": "T-013",
+      "surveyId": "S2",
+      "longitude": 71.30102281890996,
+      "latitude": 51.10116241466044,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-014",
+      "treeId": "T-014",
+      "surveyId": "S2",
+      "longitude": 71.30135899016008,
+      "latitude": 51.10141394178944,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-015",
+      "treeId": "T-015",
+      "surveyId": "S2",
+      "longitude": 71.30152349949525,
+      "latitude": 51.10124326266619,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-016",
+      "treeId": "T-016",
+      "surveyId": "S2",
+      "longitude": 71.30166655109105,
+      "latitude": 51.10140495867769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-017",
+      "treeId": "T-017",
+      "surveyId": "S2",
+      "longitude": 71.30046491768634,
+      "latitude": 51.10136004311894,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-018",
+      "treeId": "T-018",
+      "surveyId": "S2",
+      "longitude": 71.30090837763332,
+      "latitude": 51.10104563420769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-019",
+      "treeId": "T-019",
+      "surveyId": "S2",
+      "longitude": 71.3024819451871,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-020",
+      "treeId": "T-020",
+      "surveyId": "S2",
+      "longitude": 71.30271082774037,
+      "latitude": 51.10112648221344,
+      "uncertainty": null,
+      "visibility": "Частично перекрыто",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-021",
+      "treeId": "T-021",
+      "surveyId": "S2",
+      "longitude": 71.30299693093197,
+      "latitude": 51.10119834710744,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-022",
+      "treeId": "T-022",
+      "surveyId": "S2",
+      "longitude": 71.30328303412357,
+      "latitude": 51.10128817822494,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-023",
+      "treeId": "T-023",
+      "surveyId": "S2",
+      "longitude": 71.30251055550626,
+      "latitude": 51.10138699245419,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-024",
+      "treeId": "T-024",
+      "surveyId": "S2",
+      "longitude": 71.302825269017,
+      "latitude": 51.101395975565936,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-025",
+      "treeId": "T-025",
+      "surveyId": "S2",
+      "longitude": 71.30313998252777,
+      "latitude": 51.10138699245419,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-026",
+      "treeId": "T-026",
+      "surveyId": "S2",
+      "longitude": 71.30316859284693,
+      "latitude": 51.10104563420769,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-027",
+      "treeId": "T-027",
+      "surveyId": "S2",
+      "longitude": 71.30055790122361,
+      "latitude": 51.10109953287819,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-028",
+      "treeId": "T-028",
+      "surveyId": "S2",
+      "longitude": 71.30079393635668,
+      "latitude": 51.10108246496586,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-029",
+      "treeId": "T-029",
+      "surveyId": "S2",
+      "longitude": 71.3010657343887,
+      "latitude": 51.10106539705354,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-030",
+      "treeId": "T-030",
+      "surveyId": "S2",
+      "longitude": 71.30136614273987,
+      "latitude": 51.101048329141214,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-031",
+      "treeId": "T-031",
+      "surveyId": "S2",
+      "longitude": 71.30166655109105,
+      "latitude": 51.10103126122889,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-032",
+      "treeId": "T-032",
+      "surveyId": "S2",
+      "longitude": 71.30196695944223,
+      "latitude": 51.101014193316566,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-033",
+      "treeId": "T-033",
+      "surveyId": "S2",
+      "longitude": 71.3022673677934,
+      "latitude": 51.10099712540424,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-034",
+      "treeId": "T-034",
+      "surveyId": "S2",
+      "longitude": 71.30256777614457,
+      "latitude": 51.10098005749192,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-035",
+      "treeId": "T-035",
+      "surveyId": "S2",
+      "longitude": 71.30286818449575,
+      "latitude": 51.10096298957959,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-036",
+      "treeId": "T-036",
+      "surveyId": "S2",
+      "longitude": 71.30316859284693,
+      "latitude": 51.10094592166727,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-037",
+      "treeId": "T-037",
+      "surveyId": "S2",
+      "longitude": 71.30053644348425,
+      "latitude": 51.100892921307945,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-038",
+      "treeId": "T-038",
+      "surveyId": "S2",
+      "longitude": 71.30080824151625,
+      "latitude": 51.10088483650737,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-039",
+      "treeId": "T-039",
+      "surveyId": "S2",
+      "longitude": 71.30110864986743,
+      "latitude": 51.10087675170679,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-040",
+      "treeId": "T-040",
+      "surveyId": "S2",
+      "longitude": 71.30150204175588,
+      "latitude": 51.100868666906216,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-041",
+      "treeId": "T-041",
+      "surveyId": "S2",
+      "longitude": 71.30170946656979,
+      "latitude": 51.100860582105646,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-042",
+      "treeId": "T-042",
+      "surveyId": "S2",
+      "longitude": 71.30200987492097,
+      "latitude": 51.10085249730507,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-043",
+      "treeId": "T-043",
+      "surveyId": "S2",
+      "longitude": 71.30231028327213,
+      "latitude": 51.10084441250449,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-044",
+      "treeId": "T-044",
+      "surveyId": "S2",
+      "longitude": 71.30261069162331,
+      "latitude": 51.10083632770392,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-045",
+      "treeId": "T-045",
+      "surveyId": "S2",
+      "longitude": 71.3029110999745,
+      "latitude": 51.10082824290334,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-046",
+      "treeId": "T-046",
+      "surveyId": "S2",
+      "longitude": 71.30324011864482,
+      "latitude": 51.10082015810277,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-047",
+      "treeId": "T-047",
+      "surveyId": "S2",
+      "longitude": 71.30156641497399,
+      "latitude": 51.10024613726195,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-048",
+      "treeId": "T-048",
+      "surveyId": "S2",
+      "longitude": 71.30155210981441,
+      "latitude": 51.10040783327345,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-049",
+      "treeId": "T-049",
+      "surveyId": "S2",
+      "longitude": 71.30155210981441,
+      "latitude": 51.100578512396694,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-050",
+      "treeId": "T-050",
+      "surveyId": "S2",
+      "longitude": 71.30199556976139,
+      "latitude": 51.10024613726195,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-051",
+      "treeId": "T-051",
+      "surveyId": "S2",
+      "longitude": 71.30200987492097,
+      "latitude": 51.100425799496946,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-052",
+      "treeId": "T-052",
+      "surveyId": "S2",
+      "longitude": 71.30200987492097,
+      "latitude": 51.10061444484369,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-053",
+      "treeId": "T-053",
+      "surveyId": "S2",
+      "longitude": 71.30250340292646,
+      "latitude": 51.1002910528207,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-054",
+      "treeId": "T-054",
+      "surveyId": "S2",
+      "longitude": 71.30272513289995,
+      "latitude": 51.10026410348545,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-055",
+      "treeId": "T-055",
+      "surveyId": "S2",
+      "longitude": 71.30312567736819,
+      "latitude": 51.10035393460295,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Изменение цвета кроны. Возможна сезонность; требуется наземный осмотр."
+    },
+    {
+      "id": "O-S2-T-056",
+      "treeId": "T-056",
+      "surveyId": "S2",
+      "longitude": 71.30251055550626,
+      "latitude": 51.100542579949696,
+      "uncertainty": 0.6,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-57",
+      "treeId": "T-57",
+      "surveyId": "S2",
+      "longitude": 71.30022888255327,
+      "latitude": 51.10139238232124,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-58",
+      "treeId": "T-58",
+      "surveyId": "S2",
+      "longitude": 71.3012016334047,
+      "latitude": 51.10143729787999,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-59",
+      "treeId": "T-59",
+      "surveyId": "S2",
+      "longitude": 71.30217438425613,
+      "latitude": 51.10139238232124,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    },
+    {
+      "id": "O-S2-T-60",
+      "treeId": "T-60",
+      "surveyId": "S2",
+      "longitude": 71.30314713510757,
+      "latitude": 51.10143729787999,
+      "uncertainty": 1.2,
+      "visibility": "Наблюдается",
+      "note": "Условное наблюдение. Состояние по изображению не диагностируется."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "target": "T-010",
+      "reason": "Изменение видимого состояния",
+      "description": "Проверить крону на месте, зафиксировать наблюдения.",
+      "assignee": "Учебная бригада №1",
+      "due": "2026-06-28",
+      "priority": "Высокий",
+      "status": "Назначена",
+      "comment": "",
+      "result": ""
+    },
+    {
+      "id": "TASK-002",
+      "target": "T-014",
+      "reason": "Проверка положения",
+      "description": "Уточнить координату ствола.",
+      "assignee": "Учебная бригада №1",
+      "due": "2026-06-30",
+      "priority": "Средний",
+      "status": "В работе",
+      "comment": "",
+      "result": ""
+    },
+    {
+      "id": "TASK-003",
+      "target": "T-020",
+      "reason": "Уточнение наблюдаемости",
+      "description": "Проверить перекрытое дерево.",
+      "assignee": "Учебная бригада №2",
+      "due": "2026-06-25",
+      "priority": "Средний",
+      "status": "Выполнена",
+      "comment": "Учебный пример",
+      "result": "Дерево присутствует"
+    },
+    {
+      "id": "TASK-004",
+      "target": "T-006",
+      "reason": "Наземный осмотр",
+      "description": "Учебный пример принятой работы.",
+      "assignee": "Учебная бригада №2",
+      "due": "2026-06-20",
+      "priority": "Низкий",
+      "status": "Принята заказчиком",
+      "comment": "Результат проверен в деморежиме",
+      "result": "Без замечаний по осмотру"
+    }
+  ],
+  "scenario": {
+    "id": "SC1",
+    "name": "Вариант 01 · новые посадки",
+    "trees": []
+  },
+  "history": [],
+  "matches": {
+    "S1": [
+      {
+        "planId": "P-003",
+        "observationId": "O-S1-T-003",
+        "manual": false
+      },
+      {
+        "planId": "P-004",
+        "observationId": "O-S1-T-004",
+        "manual": false
+      },
+      {
+        "planId": "P-005",
+        "observationId": "O-S1-T-005",
+        "manual": false
+      },
+      {
+        "planId": "P-006",
+        "observationId": "O-S1-T-006",
+        "manual": false
+      },
+      {
+        "planId": "P-007",
+        "observationId": "O-S1-T-007",
+        "manual": false
+      },
+      {
+        "planId": "P-008",
+        "observationId": "O-S1-T-008",
+        "manual": false
+      },
+      {
+        "planId": "P-009",
+        "observationId": "O-S1-T-009",
+        "manual": false
+      },
+      {
+        "planId": "P-010",
+        "observationId": "O-S1-T-010",
+        "manual": false
+      },
+      {
+        "planId": "P-011",
+        "observationId": "O-S1-T-011",
+        "manual": false
+      },
+      {
+        "planId": "P-012",
+        "observationId": "O-S1-T-012",
+        "manual": false
+      },
+      {
+        "planId": "P-013",
+        "observationId": "O-S1-T-013",
+        "manual": false
+      },
+      {
+        "planId": "P-015",
+        "observationId": "O-S1-T-015",
+        "manual": false
+      },
+      {
+        "planId": "P-016",
+        "observationId": "O-S1-T-016",
+        "manual": false
+      },
+      {
+        "planId": "P-017",
+        "observationId": "O-S1-T-017",
+        "manual": false
+      },
+      {
+        "planId": "P-018",
+        "observationId": "O-S1-T-018",
+        "manual": false
+      },
+      {
+        "planId": "P-019",
+        "observationId": "O-S1-T-019",
+        "manual": false
+      },
+      {
+        "planId": "P-020",
+        "observationId": "O-S1-T-020",
+        "manual": false
+      },
+      {
+        "planId": "P-021",
+        "observationId": "O-S1-T-021",
+        "manual": false
+      },
+      {
+        "planId": "P-022",
+        "observationId": "O-S1-T-022",
+        "manual": false
+      },
+      {
+        "planId": "P-023",
+        "observationId": "O-S1-T-023",
+        "manual": false
+      },
+      {
+        "planId": "P-024",
+        "observationId": "O-S1-T-024",
+        "manual": false
+      },
+      {
+        "planId": "P-025",
+        "observationId": "O-S1-T-025",
+        "manual": false
+      },
+      {
+        "planId": "P-026",
+        "observationId": "O-S1-T-026",
+        "manual": false
+      },
+      {
+        "planId": "P-027",
+        "observationId": "O-S1-T-027",
+        "manual": false
+      },
+      {
+        "planId": "P-028",
+        "observationId": "O-S1-T-028",
+        "manual": false
+      },
+      {
+        "planId": "P-029",
+        "observationId": "O-S1-T-029",
+        "manual": false
+      },
+      {
+        "planId": "P-030",
+        "observationId": "O-S1-T-030",
+        "manual": false
+      },
+      {
+        "planId": "P-031",
+        "observationId": "O-S1-T-031",
+        "manual": false
+      },
+      {
+        "planId": "P-032",
+        "observationId": "O-S1-T-032",
+        "manual": false
+      },
+      {
+        "planId": "P-033",
+        "observationId": "O-S1-T-033",
+        "manual": false
+      },
+      {
+        "planId": "P-034",
+        "observationId": "O-S1-T-034",
+        "manual": false
+      },
+      {
+        "planId": "P-035",
+        "observationId": "O-S1-T-035",
+        "manual": false
+      },
+      {
+        "planId": "P-036",
+        "observationId": "O-S1-T-036",
+        "manual": false
+      },
+      {
+        "planId": "P-037",
+        "observationId": "O-S1-T-037",
+        "manual": false
+      },
+      {
+        "planId": "P-038",
+        "observationId": "O-S1-T-038",
+        "manual": false
+      },
+      {
+        "planId": "P-039",
+        "observationId": "O-S1-T-039",
+        "manual": false
+      },
+      {
+        "planId": "P-040",
+        "observationId": "O-S1-T-040",
+        "manual": false
+      },
+      {
+        "planId": "P-041",
+        "observationId": "O-S1-T-041",
+        "manual": false
+      },
+      {
+        "planId": "P-042",
+        "observationId": "O-S1-T-042",
+        "manual": false
+      },
+      {
+        "planId": "P-043",
+        "observationId": "O-S1-T-043",
+        "manual": false
+      },
+      {
+        "planId": "P-044",
+        "observationId": "O-S1-T-044",
+        "manual": false
+      },
+      {
+        "planId": "P-045",
+        "observationId": "O-S1-T-045",
+        "manual": false
+      },
+      {
+        "planId": "P-047",
+        "observationId": "O-S1-T-047",
+        "manual": false
+      },
+      {
+        "planId": "P-048",
+        "observationId": "O-S1-T-048",
+        "manual": false
+      },
+      {
+        "planId": "P-049",
+        "observationId": "O-S1-T-049",
+        "manual": false
+      },
+      {
+        "planId": "P-050",
+        "observationId": "O-S1-T-050",
+        "manual": false
+      },
+      {
+        "planId": "P-051",
+        "observationId": "O-S1-T-051",
+        "manual": false
+      },
+      {
+        "planId": "P-052",
+        "observationId": "O-S1-T-052",
+        "manual": false
+      },
+      {
+        "planId": "P-053",
+        "observationId": "O-S1-T-053",
+        "manual": false
+      },
+      {
+        "planId": "P-054",
+        "observationId": "O-S1-T-054",
+        "manual": false
+      },
+      {
+        "planId": "P-055",
+        "observationId": "O-S1-T-055",
+        "manual": false
+      },
+      {
+        "planId": "P-056",
+        "observationId": "O-S1-T-056",
+        "manual": false
+      }
+    ],
+    "S2": [
+      {
+        "planId": "P-003",
+        "observationId": "O-S2-T-003",
+        "manual": false
+      },
+      {
+        "planId": "P-004",
+        "observationId": "O-S2-T-004",
+        "manual": false
+      },
+      {
+        "planId": "P-005",
+        "observationId": "O-S2-T-005",
+        "manual": false
+      },
+      {
+        "planId": "P-006",
+        "observationId": "O-S2-T-006",
+        "manual": false
+      },
+      {
+        "planId": "P-007",
+        "observationId": "O-S2-T-007",
+        "manual": false
+      },
+      {
+        "planId": "P-008",
+        "observationId": "O-S2-T-008",
+        "manual": false
+      },
+      {
+        "planId": "P-009",
+        "observationId": "O-S2-T-009",
+        "manual": false
+      },
+      {
+        "planId": "P-010",
+        "observationId": "O-S2-T-010",
+        "manual": false
+      },
+      {
+        "planId": "P-011",
+        "observationId": "O-S2-T-011",
+        "manual": false
+      },
+      {
+        "planId": "P-012",
+        "observationId": "O-S2-T-012",
+        "manual": false
+      },
+      {
+        "planId": "P-013",
+        "observationId": "O-S2-T-013",
+        "manual": false
+      },
+      {
+        "planId": "P-015",
+        "observationId": "O-S2-T-015",
+        "manual": false
+      },
+      {
+        "planId": "P-016",
+        "observationId": "O-S2-T-016",
+        "manual": false
+      },
+      {
+        "planId": "P-017",
+        "observationId": "O-S2-T-017",
+        "manual": false
+      },
+      {
+        "planId": "P-018",
+        "observationId": "O-S2-T-018",
+        "manual": false
+      },
+      {
+        "planId": "P-019",
+        "observationId": "O-S2-T-019",
+        "manual": false
+      },
+      {
+        "planId": "P-020",
+        "observationId": "O-S2-T-020",
+        "manual": false
+      },
+      {
+        "planId": "P-021",
+        "observationId": "O-S2-T-021",
+        "manual": false
+      },
+      {
+        "planId": "P-022",
+        "observationId": "O-S2-T-022",
+        "manual": false
+      },
+      {
+        "planId": "P-023",
+        "observationId": "O-S2-T-023",
+        "manual": false
+      },
+      {
+        "planId": "P-024",
+        "observationId": "O-S2-T-024",
+        "manual": false
+      },
+      {
+        "planId": "P-025",
+        "observationId": "O-S2-T-025",
+        "manual": false
+      },
+      {
+        "planId": "P-026",
+        "observationId": "O-S2-T-026",
+        "manual": false
+      },
+      {
+        "planId": "P-027",
+        "observationId": "O-S2-T-027",
+        "manual": false
+      },
+      {
+        "planId": "P-028",
+        "observationId": "O-S2-T-028",
+        "manual": false
+      },
+      {
+        "planId": "P-029",
+        "observationId": "O-S2-T-029",
+        "manual": false
+      },
+      {
+        "planId": "P-030",
+        "observationId": "O-S2-T-030",
+        "manual": false
+      },
+      {
+        "planId": "P-031",
+        "observationId": "O-S2-T-031",
+        "manual": false
+      },
+      {
+        "planId": "P-032",
+        "observationId": "O-S2-T-032",
+        "manual": false
+      },
+      {
+        "planId": "P-033",
+        "observationId": "O-S2-T-033",
+        "manual": false
+      },
+      {
+        "planId": "P-034",
+        "observationId": "O-S2-T-034",
+        "manual": false
+      },
+      {
+        "planId": "P-035",
+        "observationId": "O-S2-T-035",
+        "manual": false
+      },
+      {
+        "planId": "P-036",
+        "observationId": "O-S2-T-036",
+        "manual": false
+      },
+      {
+        "planId": "P-037",
+        "observationId": "O-S2-T-037",
+        "manual": false
+      },
+      {
+        "planId": "P-038",
+        "observationId": "O-S2-T-038",
+        "manual": false
+      },
+      {
+        "planId": "P-039",
+        "observationId": "O-S2-T-039",
+        "manual": false
+      },
+      {
+        "planId": "P-040",
+        "observationId": "O-S2-T-040",
+        "manual": false
+      },
+      {
+        "planId": "P-041",
+        "observationId": "O-S2-T-041",
+        "manual": false
+      },
+      {
+        "planId": "P-042",
+        "observationId": "O-S2-T-042",
+        "manual": false
+      },
+      {
+        "planId": "P-043",
+        "observationId": "O-S2-T-043",
+        "manual": false
+      },
+      {
+        "planId": "P-044",
+        "observationId": "O-S2-T-044",
+        "manual": false
+      },
+      {
+        "planId": "P-045",
+        "observationId": "O-S2-T-045",
+        "manual": false
+      },
+      {
+        "planId": "P-047",
+        "observationId": "O-S2-T-047",
+        "manual": false
+      },
+      {
+        "planId": "P-048",
+        "observationId": "O-S2-T-048",
+        "manual": false
+      },
+      {
+        "planId": "P-049",
+        "observationId": "O-S2-T-049",
+        "manual": false
+      },
+      {
+        "planId": "P-050",
+        "observationId": "O-S2-T-050",
+        "manual": false
+      },
+      {
+        "planId": "P-051",
+        "observationId": "O-S2-T-051",
+        "manual": false
+      },
+      {
+        "planId": "P-052",
+        "observationId": "O-S2-T-052",
+        "manual": false
+      },
+      {
+        "planId": "P-053",
+        "observationId": "O-S2-T-053",
+        "manual": false
+      },
+      {
+        "planId": "P-054",
+        "observationId": "O-S2-T-054",
+        "manual": false
+      },
+      {
+        "planId": "P-055",
+        "observationId": "O-S2-T-055",
+        "manual": false
+      },
+      {
+        "planId": "P-056",
+        "observationId": "O-S2-T-056",
+        "manual": false
+      }
+    ]
+  },
+  "tolerance": 3
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "storage": "/tmp/talai-browser-nymCkV",
+  "checks": [
+    "upload and preview",
+    "date isolation",
+    "comparison",
+    "no runtime errors"
+  ]
+}

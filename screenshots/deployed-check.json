@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-12T14:41:24.466Z",
+  "url": "https://talai-one.vercel.app",
+  "documents": [
+    "/privacy",
+    "/terms",
+    "/cookies",
+    "/contacts"
+  ],
+  "errors": [],
+  "checks": [
+    "Anonymous documents and workspace, no third-party requests before map choice",
+    "Live 2GIS and own GLB loaded on production domain"
+  ],
+  "passed": true
+}

@@ -1,0 +1,80 @@
+{
+  "checks": [
+    "Public documents without authentication",
+    "Reject persists, no external requests, modal Escape and focus return",
+    "Server rejects missing consent; login and bootstrap work",
+    "Keyboard opens planting and reaches coordinate fields without map interaction",
+    "Separate image export removes EXIF and preserves dimensions",
+    "Private originals, traversal-safe name, content validation, CSRF guard, outsider denied",
+    "Session, project and original survive server restart",
+    "2GIS opt-in loads map canvas: 1",
+    "Withdrawal reload stops later external requests",
+    "Logout revokes server access"
+  ],
+  "accessibility": [
+    {
+      "name": "/privacy",
+      "violations": []
+    },
+    {
+      "name": "/terms",
+      "violations": []
+    },
+    {
+      "name": "/cookies",
+      "violations": []
+    },
+    {
+      "name": "/contacts",
+      "violations": []
+    },
+    {
+      "name": "workspace-map-off",
+      "violations": []
+    },
+    {
+      "name": "registry",
+      "violations": []
+    },
+    {
+      "name": "tree-form",
+      "violations": []
+    },
+    {
+      "name": "planning",
+      "violations": []
+    },
+    {
+      "name": "history",
+      "violations": []
+    }
+  ],
+  "externalHosts": [
+    "mapgl.2gis.com",
+    "keys.api.2gis.com",
+    "styles.api.2gis.com",
+    "tile0-sdk.maps.2gis.com",
+    "tile1-sdk.maps.2gis.com",
+    "tile3-sdk.maps.2gis.com",
+    "tile2-sdk.maps.2gis.com",
+    "disk.2gis.com"
+  ],
+  "errors": [],
+  "storage": {
+    "localStorage": [
+      "talai.privacy.v1",
+      "talai.project.v3"
+    ],
+    "indexedDB": []
+  },
+  "cookies": [
+    {
+      "name": "talai_session",
+      "domain": "127.0.0.1",
+      "httpOnly": true,
+      "sameSite": "Strict"
+    }
+  ],
+  "passed": true,
+  "accessibilityPassed": true
+}

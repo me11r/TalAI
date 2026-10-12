@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-12T13:32:14.196Z",
+  "checks": [
+    "Public documents without authentication",
+    "Reject persists, no external requests, modal Escape and focus return",
+    "Server rejects missing consent; login and bootstrap work",
+    "Keyboard opens planting and reaches coordinate fields without map interaction",
+    "Separate image export removes EXIF and preserves dimensions",
+    "Private originals, traversal-safe name, content validation, CSRF guard, outsider denied",
+    "Session, project and original survive server restart",
+    "Logout revokes server access"
+  ],
+  "accessibility": [
+    {
+      "name": "/privacy",
+      "violations": []
+    },
+    {
+      "name": "/terms",
+      "violations": []
+    },
+    {
+      "name": "/cookies",
+      "violations": []
+    },
+    {
+      "name": "/contacts",
+      "violations": []
+    },
+    {
+      "name": "workspace-map-off",
+      "violations": []
+    },
+    {
+      "name": "registry",
+      "violations": []
+    },
+    {
+      "name": "tree-form",
+      "violations": []
+    },
+    {
+      "name": "planning",
+      "violations": []
+    },
+    {
+      "name": "history",
+      "violations": []
+    }
+  ],
+  "externalHosts": [],
+  "errors": [],
+  "accessibilityPassed": true,
+  "passed": true
+}

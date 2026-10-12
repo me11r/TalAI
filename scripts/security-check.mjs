@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import {security,validateUpload,VERSION} from '../security.mjs';
+import {readFileSync} from 'node:fs';
+const db=new DatabaseSync(':memory:');let cookie='',reply;const res={setHeader(k,v){if(k==='Set-Cookie')cookie=v;}};const json=(_,v,status=200)=>{reply={v,status};};const call=async(guard,path,method='GET',data={},headers={})=>{reply=undefined;const req={method,headers:{'x-talai-request':'1',cookie,...headers},socket:{remoteAddress:'test'}};const handled=await guard(req,res,new URL(path,'http://localhost'),async()=>Buffer.from(JSON.stringify(data)),json);return {handled,...reply};};
+process.env.TALAI_OPERATOR_PASSWORD='test-only-very-long-secret-at-least-32-characters';const guard=security(db,5199);
+assert.equal((await call(guard,'/api/session','POST',{password:process.env.TALAI_OPERATOR_PASSWORD,processing:true,terms:true,version:VERSION})).status,200);assert.equal((await call(guard,'/api/project')).handled,false);assert.equal((await call(guard,'/api/project','PUT',{}, {origin:'https://other.example'})).status,403);
+assert.equal(db.prepare('SELECT count(*) AS n FROM consent_choices').get().n,2);
+assert.equal((await call(guard,'/api/session?withdraw=1','DELETE')).status,200);assert.equal((await call(guard,'/uploads/known.png')).status,401);assert.ok(db.prepare('SELECT withdrawnAt FROM consents').get().withdrawnAt);
+await call(guard,'/api/session','POST',{password:process.env.TALAI_OPERATOR_PASSWORD,processing:true,terms:true,version:VERSION});process.env.TALAI_OPERATOR_PASSWORD='';const closed=security(db,5199);assert.equal((await call(closed,'/api/project')).status,401);assert.equal((await call(closed,'/api/session','POST')).status,503);
+process.env.TALAI_OPERATOR_PASSWORD='rotated-secret-at-least-32-characters-long';const rotated=security(db,5199);assert.equal((await call(rotated,'/api/project')).status,401);
+await validateUpload(readFileSync('public/models/talai-tree.glb'),'.glb');await assert.rejects(validateUpload(Buffer.from('{"asset":{"version":"2.0"},"buffers":[{"uri":"https://other.example/private"}]}'),'.gltf'));await assert.rejects(validateUpload(Buffer.from('not an image'),'.jpg'));
+console.log('PASS closed default, separate consent evidence, withdrawal, credential rotation, CSRF, GLB URI and image validation');

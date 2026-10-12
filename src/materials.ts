@@ -8,3 +8,6 @@ export async function uploadOriginal(file:File):Promise<Omit<Material,'kind'>>{
  }
  return original;
 }
+export async function exportCleanImage(url:string){
+ const r=await fetch(url);if(!r.ok)throw Error('Нет доступа к оригиналу');const bitmap=await createImageBitmap(await r.blob());const canvas=document.createElement('canvas');canvas.width=bitmap.width;canvas.height=bitmap.height;canvas.getContext('2d')!.drawImage(bitmap,0,0);bitmap.close();const blob=await new Promise<Blob|null>(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('Не удалось подготовить копию');const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download='talai-export.png';link.click();setTimeout(()=>URL.revokeObjectURL(link.href),1000);
+}
